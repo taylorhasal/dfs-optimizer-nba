@@ -30,3 +30,10 @@
     transform: rotate(360deg);
   }
 }
+
+.Container {
+  min-height: 100vh;
+  border: 1px;
+  border-color: #282c34;
+  background-color: white;
+}

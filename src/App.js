@@ -9,6 +9,7 @@ class App extends Component {
         <header className="App-header">
           DAILY FANTASY SPORTS LINEUP OPTIMIZER NBA
         </header>
+        <div className="Container"></div>
       </div>
     );
   }
