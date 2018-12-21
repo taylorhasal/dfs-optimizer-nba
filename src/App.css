@@ -37,3 +37,8 @@
   border-color: #282c34;
   background-color: white;
 }
+
+.Table {
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
