@@ -11,7 +11,7 @@ class App extends Component {
         </header>
         <div className="Container">
           <div className="Table">
-            USE GRID TO CREATE TABLES OF PLAYER NAMES, POSITION, TEAM, OPPONENT, AVERAGE POINTS, SALARY
+            <input></input>
           </div>
         </div>
       </div>
