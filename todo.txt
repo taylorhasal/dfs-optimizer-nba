@@ -1,0 +1,19 @@
+1) list minimum required buttons needed
+  a. upload csv field
+  b. optimize lineup button
+  c. current lineup grid
+  d. available players grid
+2) plan a layout of buttons and input form
+3) how will user upload csv?
+4) how will user select a locked player?
+5) how will user omit an unwanted player?
+6) get working lineup creator first, then write function to create optimized lineup
+
+
+Color Scheme Lists
+  Background: 16242C
+  Light Grey Accent: 607078
+  Dark Grey Accent: 374045
+  Light Blue Accent: 62A1C5
+  Dark Blue Accent: 3C6378
+  
