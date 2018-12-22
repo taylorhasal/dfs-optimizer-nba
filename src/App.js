@@ -10,7 +10,7 @@ class App extends Component {
           DAILY FANTASY SPORTS LINEUP OPTIMIZER NBA
         </header>
         <div className="Container">
-          <div className="table">
+          <div className="Table">
             USE GRID TO CREATE TABLES OF PLAYER NAMES, POSITION, TEAM, OPPONENT, AVERAGE POINTS, SALARY
           </div>
         </div>
