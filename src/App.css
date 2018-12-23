@@ -32,9 +32,9 @@
 }
 
 .Container {
-  height:80vh;
+  height: 80vh;
   display: grid;
-  grid-template-columns: repeat(3 auto);
+  grid-template-columns: 60% 40%;
   grid-template-rows: 15% auto auto;
   background-color: white;
 }
@@ -46,7 +46,7 @@
   justify-content: center;
   background-color: white;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
   font-size: calc(3px + 2vmin);
@@ -54,22 +54,22 @@
 }
 
 .Available-Players {
-  background-color: #62A1C5;
+  border: 1px solid black;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 4;
-  font-size: calc(5px + 2vmin);
+  font-size: calc(3px + 2vmin);
   color: #16242C;
 }
 
 .Current-Roster {
-  background-color: #3C6378;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  border: 1px solid black;
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 4;
-  font-size: calc(5px + 2vmin);
+  font-size: calc(3px + 2vmin);
   color: #16242C;
 }
 

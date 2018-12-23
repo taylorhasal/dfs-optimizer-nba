@@ -14,8 +14,9 @@ class App extends Component {
             <div className="Info-Text">Use the form below to upload the .csv file from draftkings.com, then click "OPTIMIZE" to see your custom lineup!</div>
             <button id="Optimize-Btn">UPLOAD</button>
           </div>
-          <div className="Available-Players"></div>
-          <div className="Current-Roster"></div>
+          <div className="Available-Players">Create Table of Available Players Here</div>
+          <div className="Current-Roster">Create Table of Current Roster Here
+          </div>
         </div>
       </div>
     );
