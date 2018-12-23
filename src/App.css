@@ -9,12 +9,12 @@
 
 .App-header {
   background-color: #16242C;
-  min-height: 30vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(15px + 2vmin);
+  font-size: calc(10px + 2vmin);
   color: #62A1C5;
 }
 
@@ -32,10 +32,43 @@
 }
 
 .Container {
+  height:80vh;
+  display: grid;
+  grid-template-columns: repeat(3 auto);
+  grid-template-rows: 10% auto auto;
   background-color: white;
 }
 
-.Table {
+.Info {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: calc(2.5px + 2vmin);
+  color: #16242C;
+}
+
+.Available-Players {
+  background-color: #62A1C5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
   font-size: calc(5px + 2vmin);
   color: #16242C;
 }
+
+.Current-Roster {
+  background-color: #3C6378;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  font-size: calc(5px + 2vmin);
+  color: #16242C;
+}
+
+
