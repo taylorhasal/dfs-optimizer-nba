@@ -11,8 +11,8 @@ class App extends Component {
         </header>
         <div className="Container">
           <div className="Info">
-            <div className="Info-Text">USE THE FORM BELOW TO UPLOAD THE CSV DOWNLOADED FROM DRAFTKINGS.COM. THEN CLICK "OPTIMIZE" TO SEE YOUR CUSTOM LINEUP!</div>
-            <button id="Optimize-Btn">OPTIMIZE</button>
+            <div className="Info-Text">Use the form below to upload the .csv file from draftkings.com, then click "OPTIMIZE" to see your custom lineup!</div>
+            <button id="Optimize-Btn">UPLOAD</button>
           </div>
           <div className="Available-Players"></div>
           <div className="Current-Roster"></div>
