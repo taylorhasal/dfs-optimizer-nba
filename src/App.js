@@ -10,7 +10,10 @@ class App extends Component {
           DAILY FANTASY SPORTS LINEUP OPTIMIZER NBA
         </header>
         <div className="Container">
-          <div className="Info">SELECT YOUR "LOCKED" PLAYERS FROM THE LIST OF AVAILABLE PLAYERS. CLICK THE "OPTIMIZE" BUTTON TO CREATE YOUR CUSTOM DFS LINEUP!</div>
+          <div className="Info">
+            <div className="Info-Text">USE THE FORM BELOW TO UPLOAD THE CSV DOWNLOADED FROM DRAFTKINGS.COM. THEN CLICK "OPTIMIZE" TO SEE YOUR CUSTOM LINEUP!</div>
+            <button id="Optimize-Btn">OPTIMIZE</button>
+          </div>
           <div className="Available-Players"></div>
           <div className="Current-Roster"></div>
         </div>
