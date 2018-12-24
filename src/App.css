@@ -59,7 +59,7 @@
   grid-row-start: 2;
   grid-row-end: 4;
   font-size: calc(3px + 2vmin);
-  color: #16242C;
+  color: grey;
 }
 
 .Current-Roster {
@@ -68,7 +68,7 @@
   grid-row-start: 2;
   grid-row-end: 4;
   font-size: calc(3px + 2vmin);
-  color: #16242C;
+  color: grey;
 }
 
 #Optimize-Btn{
